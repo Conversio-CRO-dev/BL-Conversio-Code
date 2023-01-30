@@ -1,0 +1,19 @@
+.b-images__main.swiper-container > .swiper-wrapper {
+    flex-direction:unset !important;
+    flex-wrap:wrap !important;
+ }
+.js-zoom-carousel-item { width:50% !important; } 
+.js-swiper-custom-pagination-container.b-images__thumbnails--wrapper { display:none !important; }
+.b-images__main { max-width:unset !important; }
+.b-images__wrapper{
+    max-height:unset !important;
+    transform: translate3d(12px, 1%, 3em) !important;
+}
+.b-zoom__image-wrapper { margin:8px; }
+.b-images__main button.b-images__control { display: none !important;}
+
+@media only screen and (min-width: 768px) {
+  .b-images__slide {
+      margin-bottom: 0px !Important;
+  }
+}

@@ -1,0 +1,44 @@
+.custBasketTimerMsgAS {
+    display: block;
+    color: #212121;
+    padding-right: 8px;
+  }
+  .custBasketTimerMsgAS p {
+    font-family: "Apercu";
+    font-size: 15px;
+    display: flex;
+    margin: 0;
+    font-weight:600 !important;
+  }
+  .custBasketTimerMsgAS span.icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(https://conversio.s3.eu-west-2.amazonaws.com/monsoon/images/clock-vector-icon.svg) no-repeat 0 0;
+    vertical-align: middle;
+    margin-right: 5px;
+    flex: 0 0 20px;
+    background-size: 18px;
+  }
+  .b-cart__package:first-child .b-cart__pack .b-cart__items{
+    white-space: nowrap;
+  }
+  .b-cart .b-cart__package:first-child .b-cart__pack.custDeliveryFlex{
+    display: flex;
+    flex-wrap: inherit;
+  }
+  .b-cart .b-cart__package:first-child .b-cart__pack{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .b-cart .b-cart__package:first-child .b-cart__pack .b-cart__number {
+    flex: 0 0 100%;
+    width: 100%;
+    margin: 14px 0 -20px;
+  }
+  
+  @media(max-width: 767px){
+    .custBasketTimerMsgAS p {
+      margin-bottom: 0;
+    }
+  }

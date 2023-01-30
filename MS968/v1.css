@@ -1,0 +1,19 @@
+.b-payments__item-clearpay{
+    display:none !important;
+  }
+  
+  .b-payments__item-klarna{
+    display:none !important;
+  }
+  
+  .b-installments-message{
+    display:none !important;
+  }
+  
+  li[data-payment-id="KLARNA_PAYMENTS"],li[data-payment-id="AFTERPAY_PBI"] {
+   display: none !important;
+  }
+  
+  a[href="https://www.monsoon.co.uk/on/demandware.store/Sites-monsoon-uk-Site/en_GB/KlarnaPayments-InfoPage"]{
+    display:none !important;
+  }
